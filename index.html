@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+       var a = 5;
+       var myVar = 89;
+       myVar++;
+       console.log(myVar)
+       myVar--
+       console.log(myVar)
+       var myDecimal = 8.9;
+       console.log(myDecimal);
+       var ourDecimal = 0.0089;
+       console.log(ourDecimal)
+       var product = 2.0 * 2.5;
+       console.log(product)
+       var divide = 3.6 / 3.0;
+       console.log(divide)
+       var remainder = 12 % 5;
+       console.log(remainder)
+       a += 12;
+       console.log(a)
+       var b = 7;
+       b -= 4;
+       console.log(b)
+       b *= 4;
+       console.log(b) 
+       b /= 3;
+       console.log(b)
+       var firstName = "Alan";
+       var lastName = "Tone";
+       var myFirstName = "Jhus";
+       var myLastName = "Stormzys";
+       var myString = "Tony is a \"boy\" with a \"computer\" hahaha";
+       console.log(myString)
+       var myStr = 'Tony is "at it again" wow oh wow';
+       console.log(myStr)
+       var myStr = `Tony is "not getting it" nooooooo`;
+       console.log(myStr)
+       var myStr = "The\n\t\\next\none\rtony\bwohu\fowo"
+       console.log(myStr)
+       var myStr = "Tony is learning JS. " + "It's not so bad"
+       console.log(myStr)
+       var myStr = "string one ";
+       myStr += "string two";
+       console.log(myStr);
+       var myName = "Tony";
+       var myStr = "Hello my is " + myName + ", How are you?";
+       console.log(myStr);
+       myName += myStr;
+       console.log(myName);
+       var myFirstLength = 0;
+       var myFirst = "Wohu-owo";
+       myFirstLength = myFirst.length;
+       console.log(myFirstLength)
+       var myFirstLetter = "";
+       var myFirst = "headphones";
+       myFirstLetter = myFirst[0];
+       console.log(myFirstLetter);
+       var myFirstLetter = myFirst[myFirst.length - 1];
+       console.log(myFirstLetter);
+       function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+           var result = "";
+           result += "The" + " " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb ;
+           return result
+       }
+       console.log(wordBlanks("dog", "big", "ran", "quickly"));
+       var myArray = ["Tony", "Obriku", 19];
+       console.log(myArray);
+       var ouArray = [["Anthony", "Obriku"], ["Tony", "Wohu-owo"]];
+       console.log(ouArray);
+       var ourArray = [19, 20, 40];
+       ourArray[2] = 100;
+       console.log(ourArray);
+       var myArray = [[4, 10, 78], [45, "Tony", 78], ["yes", "no", 66],[["wow", "oh", 99], 77, 90]];
+       var myData = myArray[2][1];
+       console.log(myData);
+       var myArray = ["Tony", "T", "P"];
+       myArray.push("Obriku", "Wohu-owo");
+       console.log(myArray);
+       var removedMyArray = myArray.pop();
+       console.log(removedMyArray);
+       console.log(myArray);
+       var removedMyArray = myArray.shift();
+       console.log(myArray);
+       var myArray = [1, 2, 3];
+       var newArray = myArray.unshift(10);
+       console.log(myArray);
+
+
+    </script>
+    <script src="shop.js"></script>
+</body>
+</html>
